@@ -1,0 +1,32 @@
+ .most-search {
+      padding: 30px;
+      background-color: rgb(246, 246, 246);
+      border-top: 1px solid rgb(228, 228, 228);
+      margin-top: 32px;
+    }
+
+    .most-search h3 {
+      margin-bottom: 16px;
+      margin-top: 0;
+      
+    }
+
+    .keywords {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: start;
+    }
+
+    .keywords p {
+      margin: 0;
+      font-size: 14px;
+      color: var(--primary-color);
+    }
+
+    @media (max-width: 768px) {
+      .keywords {
+        align-items: flex-start;
+        padding-left: 10px;
+      }
+    }
